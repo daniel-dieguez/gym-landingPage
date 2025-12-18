@@ -80,7 +80,7 @@ export function Registration() {
                 <Input
                   id="phone"
                   type="tel"
-                  placeholder="+52 123 456 7890"
+                  placeholder="+502 58564601"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   required
